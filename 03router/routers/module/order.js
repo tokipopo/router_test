@@ -15,7 +15,7 @@ Router.post("/addcart", async (req, res) => {
     let data = await query(sql);
     if (data.affectedRows) {
       // 如果添加成功     //返回goods相同goods_id的商品  //后面再个接口
-      console.log(data, "jjkj");
+      console.log(data, "jjkjlll");
       inf = {
         code: 2000,
         flag: true,
