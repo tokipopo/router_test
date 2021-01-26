@@ -5,7 +5,7 @@ let query = require("../../db/mysql");
 // let tokenFn = require('./token');
 
 //写接口
-// 新增订单(购物车新增商品)ss
+// 新增订单(购物车新增商品)
 Router.post("/addcart", async (req, res) => {
   let inf = {};
   try {
