@@ -52,7 +52,7 @@ Router.delete("/del/:id", async (req, res) => {
       inf = {
         code: 2000,
         flag: true,
-        message: "删除成功",
+        message: "删除成功", //no
       };
     } else {
       inf = {
