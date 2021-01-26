@@ -58,7 +58,7 @@ Router.delete("/del/:id", async (req, res) => {
       inf = {
         code: 3000,
         flag: false,
-        message: "删除失败", //ok
+        message: "删除失败",
       };
     }
   } catch (err) {
