@@ -101,7 +101,7 @@ Router.delete("/delmore", async (req, res) => {
   res.send(inf);
 });
 
-// 修改订单  一般是该规格 数量  num
+// 修改订单  一般是该规格 数量  num22
 Router.put("/edit/:id", async (req, res) => {
   let { id } = req.params;
   let opt = req.body; // let name = req.query.name;
