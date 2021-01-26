@@ -5,7 +5,7 @@ let query = require("../../db/mysql");
 // let tokenFn = require('./token');
 
 //写接口
-// 新增订单(购物车新增商品)ss
+// 新增订单(购物车新增商品)
 Router.post("/addcart", async (req, res) => {
   let inf = {};
   try {
@@ -58,7 +58,7 @@ Router.delete("/del/:id", async (req, res) => {
       inf = {
         code: 3000,
         flag: false,
-        message: "删除失败", //ok
+        message: "删除失败",
       };
     }
   } catch (err) {
